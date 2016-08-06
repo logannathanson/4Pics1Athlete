@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RFViewController CheckIfItIsFull]:RFViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "temp.titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RFViewController viewDidLoad]:RFViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
