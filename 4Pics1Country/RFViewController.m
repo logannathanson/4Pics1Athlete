@@ -809,7 +809,7 @@
     }
     
     //countryNameDEV.text = country;
-    NSLog(@"Current country is: %@", country);
+    NSLog(@"Current athlete is: %@", country);
 }
 
 
@@ -1694,7 +1694,7 @@
 {
     numberOfTimes_clicked_shop++ ;
     
-    InAppPanel.hidden = NO;
+    InAppPanel.hidden = YES;
     NSLog(@"shop displayed");
 }
 
@@ -2165,7 +2165,7 @@
                             // I'm assigning this button(buttonLetter) a number.
                             tempButtonLetterRow.tag = index ;
                             
-                            NSLog(@"I'm assigning this (buttonLetter) a number. %i", tempButtonLetterRow.tag) ;
+                            NSLog(@"I'm assigning this (buttonLetter) a number. %li", (long)tempButtonLetterRow.tag) ;
                             boughtLetter = true ;
                             
                             [self appendPressedLetter2:tempButtonLetterRow] ;

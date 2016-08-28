@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0FDA2D8B1A2A386A00772B7E /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDA2D8A1A2A386A00772B7E /* AdColony.framework */; };
-		0FDA2D8D1A2A38C500772B7E /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDA2D8C1A2A38C500772B7E /* Chartboost.framework */; };
+		404311DE1D7298B600527151 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404311DD1D7298B600527151 /* RevMobAds.framework */; };
+		404311E21D7299AD00527151 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404311E11D7299AD00527151 /* Chartboost.framework */; };
 		4D0901E418463CAE0040AF58 /* letter_active_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0901E318463CAE0040AF58 /* letter_active_bg.png */; };
 		4D0901E6184642AA0040AF58 /* letter_bg_target.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0901E5184642AA0040AF58 /* letter_bg_target.png */; };
 		4D543E2B18427538002A56C3 /* 1Pic1Country_Hints.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D543D0518427538002A56C3 /* 1Pic1Country_Hints.txt */; };
@@ -271,7 +272,6 @@
 		4D99052917E87CDA00EA9ACF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99052817E87CDA00EA9ACF /* MessageUI.framework */; };
 		4D99052B17E87CF000EA9ACF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99052A17E87CF000EA9ACF /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D99052D17E87D7100EA9ACF /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99052C17E87D7100EA9ACF /* libz.1.2.5.dylib */; };
-		7F27D2721853E11600139186 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F27D2711853E11600139186 /* RevMobAds.framework */; };
 		7F3AB7B117BEDCF900EAF54C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3AB7B017BEDCF800EAF54C /* AVFoundation.framework */; };
 		7F42F75F17A592DC00CF73F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F42F75E17A592DC00CF73F8 /* UIKit.framework */; };
 		7F42F76117A592DC00CF73F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F42F76017A592DC00CF73F8 /* Foundation.framework */; };
@@ -296,8 +296,9 @@
 
 /* Begin PBXFileReference section */
 		0FDA2D8A1A2A386A00772B7E /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
-		0FDA2D8C1A2A38C500772B7E /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
 		0FDA2D8E1A2A3BA400772B7E /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		404311DD1D7298B600527151 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "../../Downloads/revmob-ios-sdk/RevMobAds.framework"; sourceTree = "<group>"; };
+		404311E11D7299AD00527151 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = "../../../../Downloads/Chartboost-iOS-6.4.7/Chartboost.framework"; sourceTree = "<group>"; };
 		4D0901E318463CAE0040AF58 /* letter_active_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_active_bg.png; sourceTree = "<group>"; };
 		4D0901E5184642AA0040AF58 /* letter_bg_target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_bg_target.png; sourceTree = "<group>"; };
 		4D543D0518427538002A56C3 /* 1Pic1Country_Hints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1Pic1Country_Hints.txt; sourceTree = "<group>"; };
@@ -561,7 +562,6 @@
 		4D99052817E87CDA00EA9ACF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4D99052A17E87CF000EA9ACF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4D99052C17E87D7100EA9ACF /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
-		7F27D2711853E11600139186 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = 4Pics1Country/thirdparty/RevMobAds.framework; sourceTree = "<group>"; };
 		7F27D2741853E13000139186 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
 		7F27D2751853E13000139186 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		7F27D2761853E13000139186 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
@@ -614,16 +614,15 @@
 				7F6A4FEC1816064D0067E0DE /* CoreData.framework in Frameworks */,
 				4D99052D17E87D7100EA9ACF /* libz.1.2.5.dylib in Frameworks */,
 				7F42F78C17A599CE00CF73F8 /* AdSupport.framework in Frameworks */,
-				7F27D2721853E11600139186 /* RevMobAds.framework in Frameworks */,
 				4D7EBB3617E6A099000A2E86 /* SystemConfiguration.framework in Frameworks */,
 				4D99052B17E87CF000EA9ACF /* Social.framework in Frameworks */,
 				4D7EBB3A17E6A11C000A2E86 /* QuartzCore.framework in Frameworks */,
+				404311E21D7299AD00527151 /* Chartboost.framework in Frameworks */,
 				4D99052917E87CDA00EA9ACF /* MessageUI.framework in Frameworks */,
 				4D99052717E87CD400EA9ACF /* MediaPlayer.framework in Frameworks */,
 				4D99052417E87CBF00EA9ACF /* EventKit.framework in Frameworks */,
 				4D99052517E87CBF00EA9ACF /* EventKitUI.framework in Frameworks */,
 				4D99052017E87CAD00EA9ACF /* CoreMedia.framework in Frameworks */,
-				0FDA2D8D1A2A38C500772B7E /* Chartboost.framework in Frameworks */,
 				4D99052117E87CAD00EA9ACF /* CoreTelephony.framework in Frameworks */,
 				4D7EBB3817E6A0D5000A2E86 /* CoreLocation.framework in Frameworks */,
 				0FDA2D8B1A2A386A00772B7E /* AdColony.framework in Frameworks */,
@@ -632,6 +631,7 @@
 				7F42F78E17A599DD00CF73F8 /* iAd.framework in Frameworks */,
 				7F42F75F17A592DC00CF73F8 /* UIKit.framework in Frameworks */,
 				7F42F76117A592DC00CF73F8 /* Foundation.framework in Frameworks */,
+				404311DE1D7298B600527151 /* RevMobAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,8 +1346,8 @@
 		4D543F1918427545002A56C3 /* thirdparty */ = {
 			isa = PBXGroup;
 			children = (
+				404311E11D7299AD00527151 /* Chartboost.framework */,
 				0FDA2D8E1A2A3BA400772B7E /* RevMobAds.framework */,
-				0FDA2D8C1A2A38C500772B7E /* Chartboost.framework */,
 				0FDA2D8A1A2A386A00772B7E /* AdColony.framework */,
 			);
 			path = thirdparty;
@@ -1390,8 +1390,8 @@
 			children = (
 				7F27D27C1853E14800139186 /* libChartboost.a */,
 				7F27D27D1853E14800139186 /* libGoogleAnalyticsServices.a */,
+				404311DD1D7298B600527151 /* RevMobAds.framework */,
 				7F27D2731853E13000139186 /* GAnalytics */,
-				7F27D2711853E11600139186 /* RevMobAds.framework */,
 				4D99052C17E87D7100EA9ACF /* libz.1.2.5.dylib */,
 				4D7EBB3917E6A11C000A2E86 /* QuartzCore.framework */,
 				4D7EBB3717E6A0D5000A2E86 /* CoreLocation.framework */,
@@ -1490,7 +1490,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RF;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Roey Farag";
 				TargetAttributes = {
 					7F42F75A17A592DC00CF73F8 = {
@@ -1831,6 +1831,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Logan Nathanson (297D4SJHD6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Nathanson (297D4SJHD6)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1889,8 +1890,9 @@
 		7F42F77F17A592DC00CF73F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Logan Nathanson (297D4SJHD6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Nathanson (297D4SJHD6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Logan Nathanson (78F9Q4BS2K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Logan Nathanson (78F9Q4BS2K)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/**",
@@ -1900,10 +1902,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4Pics1Country/4Pics1Meaning-Prefix.pch";
 				INFOPLIST_FILE = "4Pics1Country/4Pics1Meaning-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				PRODUCT_BUNDLE_IDENTIFIER = com.logannat.4Pics1Athlete;
 				PRODUCT_NAME = 4Pics1Meaning;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1a6e9e3c-eb98-4947-a960-6b9d393d61c6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1913,6 +1916,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Logan Nathanson (78F9Q4BS2K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Logan Nathanson (78F9Q4BS2K)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/**",
@@ -1922,11 +1926,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4Pics1Country/4Pics1Meaning-Prefix.pch";
 				INFOPLIST_FILE = "4Pics1Country/4Pics1Meaning-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				PRODUCT_BUNDLE_IDENTIFIER = com.logannat.4Pics1Athlete;
 				PRODUCT_NAME = 4Pics1Meaning;
-				PROVISIONING_PROFILE = "e370007a-67e3-46c4-b089-2e2da154108a";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e370007a-67e3-46c4-b089-2e2da154108a";
+				PROVISIONING_PROFILE = "1a6e9e3c-eb98-4947-a960-6b9d393d61c6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1a6e9e3c-eb98-4947-a960-6b9d393d61c6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
